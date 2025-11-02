@@ -1,0 +1,54 @@
+.Home-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  gap: 25px;
+}
+
+.Home-card {
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+}
+
+.Home-header {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.awards-container {
+  text-align: center;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  gap: 25px;
+}
+
+.awards-card {
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+}
+
+.awards-header {
+  font-size: 18px;
+  font-weight: 600;
+}
+.location-container {
+  justify-items: center;
+}
+.location button {
+  background-color: cornflowerblue;
+  border-radius: 20%;
+  text-align: center;
+  height: 50px;
+  margin: 30px;
+
+  width: 100px;
+}

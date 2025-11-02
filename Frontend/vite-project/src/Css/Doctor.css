@@ -1,0 +1,73 @@
+.doctor-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.doctor-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-left: 6px solid #4caf50;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease;
+}
+
+.doctor-card:hover {
+  transform: scale(1.02);
+}
+
+.doctor-card p {
+  margin: 5px 0;
+}
+
+.book-button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.book-button:hover {
+  background-color: #45a049;
+}
+
+.book-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.availability ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.availability li {
+  margin: 4px 0;
+}
+
+.dropdowns {
+  margin-top: 10px;
+}
+
+select {
+  padding: 8px;
+  margin: 8px 0;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+select:focus {
+  outline: none;
+  border-color: #4caf50;
+  box-shadow: 0 0 4px rgba(76, 175, 80, 0.4);
+}

@@ -1,0 +1,18 @@
+.appointment-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.appointment-card {
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+}
+
+.appointment-header {
+  font-size: 18px;
+  font-weight: 600;
+}
